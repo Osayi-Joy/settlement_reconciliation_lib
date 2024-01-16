@@ -1,7 +1,6 @@
 package com.osayijoy.settlement_reconciliation_lib.commonUtils.util;
 
 
-import com.digicore.api.helper.exception.ZeusRuntimeException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -9,13 +8,11 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
+
+import com.osayijoy.settlement_reconciliation_lib.config.helper.exception.ZeusRuntimeException;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 
-/**
- * @author Oluwatobi Ogunwuyi
- * @since May-01(Sat)-2023
- */
 
 
 /**

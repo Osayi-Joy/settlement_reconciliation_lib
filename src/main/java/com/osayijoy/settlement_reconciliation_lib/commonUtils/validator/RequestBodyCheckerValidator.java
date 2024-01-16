@@ -1,7 +1,7 @@
 package com.osayijoy.settlement_reconciliation_lib.commonUtils.validator;
 
-import com.digicore.common.util.MoneyUtil;
-import com.digicore.common.validator.enums.Currency;
+import com.osayijoy.settlement_reconciliation_lib.commonUtils.util.MoneyUtil;
+import com.osayijoy.settlement_reconciliation_lib.registhentication.validator.enums.Currency;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import java.time.LocalDate;

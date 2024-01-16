@@ -2,11 +2,11 @@ package com.osayijoy.settlement_reconciliation_lib.commonUtils.util;
 
 
 import static java.util.Objects.isNull;
-
-import com.digicore.api.helper.exception.ZeusRuntimeException;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
+
+import com.osayijoy.settlement_reconciliation_lib.config.helper.exception.ZeusRuntimeException;
 import lombok.experimental.UtilityClass;
 import org.springframework.beans.BeanUtils;
 

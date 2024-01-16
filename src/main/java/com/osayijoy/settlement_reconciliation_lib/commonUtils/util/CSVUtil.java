@@ -1,7 +1,7 @@
 package com.osayijoy.settlement_reconciliation_lib.commonUtils.util;
 
-import com.digicore.api.helper.exception.ZeusRuntimeException;
-import com.digicore.api.helper.response.ApiError;
+import com.osayijoy.settlement_reconciliation_lib.config.helper.exception.ZeusRuntimeException;
+import com.osayijoy.settlement_reconciliation_lib.config.helper.response.ApiError;
 import com.univocity.parsers.csv.CsvWriter;
 import com.univocity.parsers.csv.CsvWriterSettings;
 import jakarta.servlet.http.HttpServletResponse;

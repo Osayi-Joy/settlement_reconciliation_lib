@@ -1,11 +1,11 @@
 package com.osayijoy.settlement_reconciliation_lib.commonUtils.util;
 
-import com.digicore.common.config.BooleanTypeAdapter;
-import com.digicore.common.config.LocalDateTimeTypeAdapter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.osayijoy.settlement_reconciliation_lib.commonUtils.validator.BooleanTypeAdapter;
+import com.osayijoy.settlement_reconciliation_lib.commonUtils.validator.LocalDateTimeTypeAdapter;
 import jakarta.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
@@ -22,10 +22,6 @@ import org.springframework.lang.Nullable;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-/**
- * @author Oluwatobi Ogunwuyi
- * @createdOn Oct-27(Thu)-2022
- */
 
 @UtilityClass
 public class ClientUtil {
